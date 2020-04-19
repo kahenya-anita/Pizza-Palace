@@ -195,16 +195,31 @@
     }
 }
 
-/*--about.html--*/
-gallery {
+/* about.html */
+.my-gallery{
+    background-color: rgb(231, 240, 116);
+}
+h1 {
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+    color: darkblue;
+}
+p {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.gallery {
     margin: 10px 50px;
 }
-gallery img {
+.gallery img {
     transition: 1s;
     padding: 15px;
     width: 200px;
 }
-gallery img:hover {
-    filter: grayscale(100%);
+.gallery img:hover {
+    filter: drop-shadow();
     transform: scale(1.1);
 }
