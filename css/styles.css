@@ -223,3 +223,19 @@ p {
     filter: drop-shadow();
     transform: scale(1.1);
 }
+
+/*ORDER.HTML*/
+h3 {
+    font-size: xx-small;
+    font-family: cursive;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+h4 {
+    font-size: xx-small;
+    font-family: cursive;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}

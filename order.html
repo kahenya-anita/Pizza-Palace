@@ -3,19 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>ORDER NOW!</title>
 </head>
 <body>
-    <div class="row">
-        <div class="col-md-6">
-          <div class="card">
-            <card-title>
-              <h3 class="pt-4 pl-5">Let us know what you want</h3>
-            </card-title>
-            <div class="card-body">
-              <div id="pizza">
-                <img class="pl-5" src="./assets/pizza1.jpeg" alt="" />
+    <div class="order mt-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div id="order-section"></div>
+              <h1 class="text-center pt-4">Make your order here!</h1>
+              <div class="alert alert-success mt-2" id="success">
+                <strong>Success!</strong> your order will be delivered to your
+                location in
+                <span style="color: rgb(231, 31, 31); font-size:18px" id="place"></span> the
+                delivery fee is ksh 150. Thank you for shopping with us.
               </div>
+              <div class="alert alert-success" id="no-delivery">
+                  <strong>Success!</strong> We will be waiting for you to pick your pizza. Thank you for shopping with us.
+                </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card">
+                    <card-title>
+    <div class="container">
+        <div class="col-md">
+          <div class="fluid">
+              <h3 class="pt-4 pl-5">Let us know what you want</h3>
+          </div>
+            
               <form id="myform">
                 <div class="form-group">
                   <label for="pizza-size">Pizza Size</label>
@@ -31,8 +48,9 @@
                     <option value="crispy">Crispy -- ksh 300</option>
                     <option value="stuffed">Stuffed -- ksh 200</option>
                     <option value="gluten-free">
-                      Gluten-free -- ksh 100</option
-                    >
+                        Gluten-free -- ksh 100</option
+                      
+                    
                   </select>
                 </div>
                 <p>Toppings</p>
@@ -178,6 +196,13 @@ aria-hidden="true"
   </div>
 </div>
 </div>
-    
+<!--FOOTER-->
+<h3>TERMS & CONDITIONS APPLY</h3>
+<h4>PIZZA PALACE @2020</h4>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>  
 </body>
 </html>
