@@ -225,6 +225,12 @@ p {
 }
 
 /*ORDER.HTML*/
+.order  {
+    background-image: url(../images/backgound.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rosybrown;
+}
 h3 {
     font-size: xx-small;
     font-family: cursive;
