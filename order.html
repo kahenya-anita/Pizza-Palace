@@ -12,6 +12,15 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-close" onclick="closeMenu"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="order.html">ORDER!</a></li>
+                    </ul>
+                    <button type="button" class="btn">SIGN UP</button>
+                </div>  
               <div id="order-section"></div>
               <h1 class="text-center pt-4">Make your order here!</h1>
               <div class="alert alert-success mt-2" id="success">
@@ -158,8 +167,8 @@ id="exampleModalCenter"
 tabindex="-1"
 role="dialog"
 aria-labelledby="exampleModalCenterTitle"
-aria-hidden="true"
->
+aria-hidden="true">
+
 <div class="modal-dialog modal-dialog-centered" role="document">
   <div class="modal-content">
     <div class="modal-header">
@@ -170,8 +179,8 @@ aria-hidden="true"
         type="button"
         class="close"
         data-dismiss="modal"
-        aria-label="Close"
-      >
+        aria-label="Close">
+      
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
@@ -186,8 +195,8 @@ aria-hidden="true"
         type="button"
         class="btn btn-secondary"
         id="myModel"
-        data-dismiss="modal"
-      >
+        data-dismiss="modal">
+      
         Confirm checkout
       </button>
       <!-- <button type="button" class="btn btn-primary">Save changes</button> -->

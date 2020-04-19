@@ -247,16 +247,16 @@ h4 {
 }
 #order {
     padding-top: 50px;
-  }
+}
 #cart {
     text-align: center;
-  }
+}
 td {
     padding: 8px 0 0 12px;
-  }
+}
 #table {
     display: none;
-  }
+}
 td img {
     border-radius: 40px;
     -webkit-border-radius: 40px;
@@ -264,21 +264,21 @@ td img {
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
     margin-left: 5px;
-  }
+}
 .total {
     font-size: 34px;
     color: #ea5b31;
-  }
+}
 .checkout {
     text-align: center;
     display: none;
-  }
+}
 #success {
     display: none;
-  }
+}
 #no-delivery {
     display: none;
-  }   
+}
 .footer {
     background-color: yellow;
 }
@@ -286,4 +286,4 @@ td img {
     .vertical {
       display: none;
     }
-  }
+}
