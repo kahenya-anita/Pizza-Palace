@@ -8,8 +8,6 @@
 
 This is a web application  where  customers order different sizes of pizzas with one or more toppings. 
 
-## Screenshot
-
 
 ## Live Page 
 *[https://kahenya-anita.github.io/Pizza-Palace]
@@ -37,12 +35,15 @@ This is a web application  where  customers order different sizes of pizzas with
 
 
 ## BDD
-| Behaviour      | Input        | Output       |
-| :------------- | :----------: | -----------: |
-|  Enter your name  |   example name |     |
-| Enter your Email Address  | example@gmail.com |   |
-| Enter your message or comment   |  I would love to work with you     |     |
-| Press Submit|     |Pop up "Example,name", we have received your message. Thank you for reaching out to us.|
+1. A use is required to choose:    
+  * Size of the pizza
+  * The crust
+  * The toppings
+2. On the cart it shows the amount of items and the total price.
+3. You the click order to complete your order and checkout.
+4. A prompt box appears that confirms your total price.
+5. We also offer transportation and the user is required to fill in their location.
+6. Finally the order is confirmed and ready to be delived at the specified location.
 
 ## Known Bugs
 * No known bugs
