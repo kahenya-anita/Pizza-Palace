@@ -53,5 +53,5 @@ This is a web application  where  customers order different sizes of pizzas with
 
 ## License
 
-* Licenced under [MITLICENCE] (LICENCE).
+* Licenced under the [MIT License](LICENSE)
 * Copyright (c) 2020 **ANITA KAHENYA**
