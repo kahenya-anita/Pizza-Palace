@@ -251,6 +251,17 @@ p {
 .nav-links .btn {
     float: right;
 }
+h2 {
+    text-align: center;
+    color: indigo;
+}
+.list {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: indianred;
+    text-indent: 0rem;
+}
 .gallery {
     margin: 10px 50px;
 }
